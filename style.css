@@ -194,7 +194,7 @@ p {
     }
     
     .bloc_blue, .bloc_blanc {
-        width: auto;
+        width: 75%;
         height: auto;
         position: static;
         border-radius: 0;
