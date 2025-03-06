@@ -39,7 +39,8 @@ p {
     top: 0;
     left: 60px;
     z-index: 2;
-    height: 60vh;
+    min-height: 60vh;
+    height: fit-content;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -50,9 +51,11 @@ p {
     position: absolute;
     top: 0;
     left: 50%;
-    height: 60vh;
+    min-height: 60vh;
+    height: fit-content;
     padding-right: 30px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    margin-right: 5em;
 }
 
 /* ================= Typography ================= */
@@ -69,6 +72,7 @@ p {
     width: 75%;
     margin: auto;
     font-size: 15px;
+    margin-bottom: 1em;
 }
 
 .result {
@@ -172,6 +176,7 @@ p {
     padding: 15px 0;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
 .continuer:hover {
